@@ -1,0 +1,98 @@
+/* Importation des styles 100 et 400 de la font "Montserrat" */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+body{
+  background-image: url("      ");
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120%;
+  color: #39393A;
+  text-align: justify;
+
+}
+
+main{
+  background: rgba(255,255,255,0.99);
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.12);
+  max-width: 1200px;
+  border-radius: 3px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FF8552;
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  color: rgb(150,150,150);
+}
+
+article{
+  background: #E6E6E6;
+  color: rgb(40,40,40);
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+h1,h2{
+  font-weight: 100;
+}
+
+img{
+  max-width: 100%;
+  border: 1px solid rgb(100,100,100);
+  border-radius: 2px;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 32.66% 32.66% 32.66%;
+  grid-gap: 1%;
+}
+
+.secondary{
+  color: #E6E6E6;
+  background: #39393A;
+  transition: box-shadow ease .25s, background ease .25s;
+}
+
+.secondary:hover{
+  background: #282829;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.7);
+  cursor: pointer;
+}
+
+#introduction{
+  font-size: 130%;
+  color: #000000;
+}
+
+footer{
+  background: #39393A;
+  color: #E6E6E6;
+}
+
+.footer-wrapper{
+  display: grid;
+  grid-template-columns: 32.66% 65.32%;
+  grid-gap:1%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-column{
+  padding: 10px;
+}
